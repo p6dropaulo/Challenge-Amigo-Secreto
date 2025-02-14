@@ -3,6 +3,7 @@ let listaAmigos = []
 function adicionarAmigo(){
     let inputNomeAmigo = document.getElementById("amigo")
     let nomeAmigo = inputNomeAmigo.value;
+    let listaResultado = document.getElementById("resultado");
 
     if(nomeAmigo.value === ""){
         alert ("Por favor, insira um nome")
@@ -10,6 +11,7 @@ function adicionarAmigo(){
         listaAmigos.push(nomeAmigo);
         inputNomeAmigo.value = "";
         atualizarListaAmigos();
+        listaResultado.innerHTML = "";
     }
 }
 
