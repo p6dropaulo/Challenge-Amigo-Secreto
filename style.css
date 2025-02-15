@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
+    --color-primary: #ffffff;
+    --color-secondary: #ffffff;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button: #be0909;
+    --color-button-hover: #800909;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -58,14 +58,15 @@ body {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-    color: var(--color-white);
+    color: #000000;
+    margin-right: 50px;
 }
 
 .section-title {
     font-family: "Inter", serif;
     font-size: 36px;
     font-weight: 700;
-    color: var(--color-primary);
+    color: #000000;
     margin: 10px 0;
     text-align: center;
 }
@@ -116,13 +117,13 @@ button {
 }
 
 .button-add {
-    background-color: var(--color-tertiary);
-    color: var(--color-text);
+    background-color: #64bcdb;
+    color: #000000;
     border-radius: 0 25px 25px 0;
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #4d8aa7;
 }
 
 /* Listas */
